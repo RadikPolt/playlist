@@ -1,0 +1,128 @@
+body {
+	font: 300 16px/1.2 "Roboto", sans-serif;
+	background: #003056 url("../img/816831.jpg")  no-repeat;
+	background-size: cover;
+	color: #574d72;
+ }
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+ 
+ .ba-playlist {
+	background: #fff;
+	border-radius: 20px;
+	-webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+	padding: 30px 20px;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+ }
+ 
+ .ba-playlist__title {
+	text-align: center;
+	font-weight: 500;
+	margin: 0 0 25px;
+ }
+ 
+ .ba-playlist__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+ }
+ 
+ .ba-tune {
+	border-top: 1px solid #e4e2e2;
+	padding-top: 10px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+ }
+ 
+ .ba-tune__top {
+	font-size: 80%;
+	margin-bottom: 5px;
+	color: #a4a3a9;
+ }
+ 
+ .ba-tune__duration {
+	display: inline-block;
+	padding-right: 10px;
+	margin-right: 6px;
+	border-right: 1px solid rgba(164, 163, 169, 0.6);
+ }
+ 
+ .ba-tune__author {
+	text-transform: capitalize;
+ }
+ 
+ .ba-tune__song {
+	font-weight: 500;
+ }
+ 
+ .ba-tune__song::first-letter {
+	text-transform: uppercase;
+ }
+ 
+ .ba-tune__like {
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+	fill: #ed5e75;
+	cursor: pointer;
+ }
+ 
+ .ba-tune__like:hover {
+	fill: #574d72;
+ }
+ 
+ .ba-hidden {
+	display: none;
+ }
